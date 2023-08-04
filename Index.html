@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAND WEBSITE WITH FLEX</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- CONTAINER START -->
+
+    <!-- NAV START  -->
+
+    <!-- <nav>
+      <div class="container">
+        <div class="item">
+          <ul class="menu-list">
+            <li><a href="">home</a></li>
+            <li><a href="">band</a></li>
+            <li><a href="">tour</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">more</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+
+    <!-- NAV END -->
+
+    <!-- SLIDER START -->
+    <div class="slider">
+      <div class="overlay overlay1">
+        <h3 title>Los Angeles</h3>
+        <p subtitle>We had the best time playing at Venice Beach!</p>
+      </div>
+      <div class="overlay overlay2">
+        <h3 title>Chigago</h3>
+        <p subtitle>Thank you, Chicago - A night we won't forget.</p>
+      </div>
+      <div class="overlay overlay3">
+        <h3 title>New York</h3>
+        <p subtitle>The atmosphere in New York is lorem ipsum.</p>
+      </div>
+    </div>
+
+    <!-- SLIDER END -->
+
+    <!-- BODY START -->
+
+    <!-- WHITE-SECTION START -->
+
+    <div class="page-section white-section">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2 class="section-title__title">The Band</h2>
+          <p class="section-title__subtitle">We Love music</p>
+        </div>
+        <div class="section-body">
+          <p class="section-body__content text-justify">
+            We have created a fictional band website. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat
+          </p>
+
+          <div class="members">
+            <div class="members-item">
+              <h6 class="members-item__name text-center">Name</h6>
+              <img
+                class="img-responsive"
+                src="./images/bandmember.jpg"
+                height="155px"
+                alt=""
+              />
+            </div>
+            <div class="members-item">
+              <h6 class="members-item__name text-center">Name</h6>
+              <img
+                class="img-responsive"
+                src="./images/bandmember.jpg"
+                height="155px"
+                alt=""
+              />
+            </div>
+            <div class="members-item">
+              <h6 class="members-item__name text-center">Name</h6>
+              <img
+                class="img-responsive"
+                src="./images/bandmember.jpg"
+                height="155px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WHITE-SECTION END -->
+
+    <!-- BLAcK-SECTION START -->
+
+    <div class="page-section black-section">
+      <div class="container">
+        <div class="section-title text-center">
+          <h2 class="section-title__title">Tour Dates</h2>
+          <p class="section-title__subtitle">remember to book your tickets!</p>
+        </div>
+
+        <div class="tours">
+          <ul class="tours-list">
+            <li class="tours-list__item">
+              September <span class="pill danger-pill">Sold Out</span>
+            </li>
+            <li class="tours-list__item">
+              October <span class="pill danger-pill">Sold Out</span>
+            </li>
+            <li class="tours-list__item">
+              <div class="row">
+                <div class="tour-flex">November</div>
+                <div class="tour-flex">
+                  <div class="m-r-2 text-right">
+                    <span class="badge black-badge">3</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tour-container">
+          <div class="tour-ticket">
+            <div class="tour-item">
+              <div class="tour-item__image">
+                <img class="img-responsive" src="./images/newyork.jpg" alt="" />
+              </div>
+              <div class="tour-item__details">
+                <h3>New York</h3>
+                <p class="tour-item__details-date">Fri 27 Nov 2016</p>
+                <p class="tour-item__details-description">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <a href="" class="btn btn-black">Buy Tickets</a>
+              </div>
+            </div>
+          </div>
+          <div class="tour-ticket">
+            <div class="tour-item">
+              <div class="tour-item__image">
+                <img class="img-responsive" src="./images/paris.jpg" alt="" />
+              </div>
+              <div class="tour-item__details">
+                <h3>New York</h3>
+                <p class="tour-item__details-date">Fri 27 Nov 2016</p>
+                <p class="tour-item__details-description">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <a href="" class="btn btn-black">Buy Tickets</a>
+              </div>
+            </div>
+          </div>
+          <div class="tour-ticket">
+            <div class="tour-item">
+              <div class="tour-item__image">
+                <img class="img-responsive" src="./images/sanfran.jpg" alt="" />
+              </div>
+              <div class="tour-item__details">
+                <h3>New York</h3>
+                <p class="tour-item__details-date">Fri 27 Nov 2016</p>
+                <p class="tour-item__details-description">
+                  Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                </p>
+                <a href="" class="btn btn-black">Buy Tickets</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLAcK-SECTION END -->
+
+    <!-- FORM START -->
+    <div class="contact">
+      <h2 class="contact-title text-center">contact</h2>
+      <p class="contact-p text-center">Fan? Drop a note!</p>
+
+      <div class="contact-form">
+        <div class="contact-form-icon float">
+          <i class="fa-solid fa-location-dot icon">Chicago, US</i>
+          <i class="fa-solid fa-phone icon"> Phone: +00 151515</i>
+          <i class="fa-solid fa-envelope icon">Email: mail@mail.com</i>
+        </div>
+
+        <div class="contact-form-field float">
+          <div class="input-field">
+            <input type="text" placeholder="Name" class="input1" />
+            <input type="email" placeholder="Email" class="input2" />
+          </div>
+
+          <div class="message-box">
+            <input type="text" placeholder="Message" class="message" />
+          </div>
+          <button class="btn btn-black">send</button>
+        </div>
+      </div>
+    </div>
+    <!-- FORM END -->
+
+    <div class="map">
+      <img
+        class="img-responsive"
+        src="./images/map.jpg"
+        alt="map"
+        target="_blank"
+      />
+    </div>
+
+    <!-- BODY END -->
+
+    <!-- FOOTER START -->
+    <footer>
+      <div class="social-media-icon">
+        <i class="social-media-icon-size fa-brands fa-facebook-square"></i>
+        <i class="social-media-icon-size fa-brands fa-instagram"></i>
+        <i class="social-media-icon-size fa-brands fa-snapchat-square"></i>
+        <i class="social-media-icon-size fa-brands fa-pinterest-p"></i>
+        <i class="social-media-icon-size fa-brands fa-twitter"></i>
+        <i class="social-media-icon-size fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>
+        Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+      </p>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- CONTAINER END -->
+  </body>
+</html>
